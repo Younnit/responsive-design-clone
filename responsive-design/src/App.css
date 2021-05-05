@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+nav{
+  display: flex;
+  padding: 0px 1rem;
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Varela Round', sans-serif;
+  height: 7.5vh;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 16pt;
+  cursor: pointer;
+}
+
+#smallMenu{
+  border: 1px #0f6372 solid;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  color: #0f6372;
+}
+
+button{
+  background-color: #0f637200;
+  border: none;
+}
+
+#smallMenuLinks{
+  padding-left: 1rem;
+  transition: transform 1s ease-in-out;
+  display: none;
+  position: relative;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  color: #bebebe;
+}
+
+.grayScaleImg{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url('https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h3{
+  letter-spacing: 1rem;
+  font-size: 25pt;
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+}
+
+#getStartedBtn{
+  background-color: #66a7b3;
+  color: whitesmoke;
+  padding: 1rem 2.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  -webkit-box-shadow: 5px 4px 10px -2px rgba(0,0,0,0.36); 
+  box-shadow: 5px 4px 10px -2px rgba(0,0,0,0.36);
+  transition: 0.25s ease-in-out;
+}
+
+#getStartedBtn:hover{
+  background-color: #59929c;
+}
+
+.gradientBlack{
+  color: #bebebe;
+  background: linear-gradient(180deg, #000000, #171717);;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 150%;
+  color: #bebebe;
+  font-family: 'Varela Round', sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h4{
+  font-size: 25pt;
+  margin: 0 0 1rem 0;
+  color: whitesmoke;
+}
+
+.shoreline{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #999999;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+h6{
+  font-size: 18pt;
+  margin: 1rem 0 0 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 150%;
+  color: #bebebe;
+  font-family: 'Varela Round', sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.misty{
+  background-color: black;
+  margin-bottom: 3rem;
+}
+
+.misty p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mountains{
+  background-color: black;
+  margin-bottom: 3rem;
+}
+
+.mountains p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+footer{
+  background-color: black;
+}
+
+footer > p{
+  color: #999;
+  text-align: center;
+}
+
+#newsLetter{
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url('https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#newsLetter > img{
+  height: 50px;
+  width: 50px;
+}
+
+h1{
+  font-family: 'Varela Round', sans-serif;
+}
+
+input{
+  margin-bottom: 2rem;
+  width: 90%;
+  height: 4rem;
+  padding: 0px 1rem;
+  letter-spacing: 0.25rem;
+  border-radius: 00.25rem;
+  border: none;
+}
+
+#contact{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#cards{
+  width: 100%;
+  background-color: white;
+  margin-bottom: 1rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0.25rem;
+  border-bottom: 8px #59929c solid;
+}
+
+.bar{
+  width: 10%;
+  height: 8px;
+  background: #59929c;
+}
+
+@media (min-width: 768px){
+  #smallMenu{
+    padding: 0.5rem 0.75rem;
+  }
+
+  .shoreline{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .wrapper{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .misty h6{
+    padding-top: 2rem;
+  }
+
+  .misty p{
+    padding-bottom: 2rem;
+  }
+
+  .mountains h6{
+    padding-top: 2rem;
+  }
+
+  .mountains p{
+    padding-bottom: 2rem;
+  }
+
+  #contact{
+    flex-direction: row;
+    margin-bottom: 5rem;
+  }
+
+  #cards{
+    margin: 0 1rem;
+    text-align: center;
+  }
+
+  .bar{
+    width: 35%;
+    height: 5px;
+  }
+}
+
+@media (min-width: 1150px){
+  nav{
+    justify-content: space-between;
+  }
+
+  #smallMenu{
+    display: none;
+  }
+
+  #smallMenuLinks{
+    display: flex;
+  }
+
+  #smallMenuLinks p{
+    margin: 0 1rem;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+  }
+
+  h3{
+    font-size: 70pt;
+    font-weight: 50;
+  }
+
+  .gradientBlack{
+    height: 80vh;
+  }
+
+  .gradientBlack p{
+    padding-right: 17rem;
+    padding-left: 17rem;
+  }
+
+  .shoreline{
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .shoreline img{
+    height: 50vh;
+    width: auto;
+    border-right: 10px solid #59929c;
+    margin-right: 2rem;
+  }
+
+  .misty{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+  }
+  .misty > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mountains{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px;
+    margin-bottom: 3rem;
+  }
+
+  .mountains > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  input{
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 1500px){
+  .shoreline{
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .wrapper{
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .misty img{
+    height: 50vh;
+    width: auto;
+  }
+
+  .misty > div{
+    padding: 0 15rem;
+  }
+
+  .mountains img{
+    height: 50vh;
+    width: auto;
+  }
+
+  .mountains > div{
+    padding: 0 15rem;
+  }
+
+  #contact{
+    justify-content: center;
+  }
+  
+  #cards{
+    margin: 0 8rem;
+  }
+}
